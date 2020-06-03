@@ -1,5 +1,4 @@
-{
-    "estados" :[
+[
             { "clave": "AGS", "nombre": "AGUASCALIENTES" },
             { "clave": "BC",  "nombre": "BAJA CALIFORNIA" },
             { "clave": "BCS", "nombre": "BAJA CALIFORNIA SUR" },
@@ -15,7 +14,6 @@
             { "clave": "HGO", "nombre": "HIDALGO" },
             { "clave": "JAL", "nombre": "JALISCO" },
             { "clave": "MCH", "nombre": "MICHOACAN" },
-            { "clave": "MEX", "nombre": "ESTADO DE MEXICO" },
             { "clave": "MOR", "nombre": "MORELOS" },
             { "clave": "NAY", "nombre": "NAYARIT" },
             { "clave": "NL",  "nombre": "NUEVO LEON" },
@@ -32,5 +30,4 @@
             { "clave": "VER", "nombre": "VERACRUZ" },
             { "clave": "YUC", "nombre": "YUCATAN" },
             { "clave": "ZAC", "nombre": "ZACATECAS" } 
-    ]
-}
+]
