@@ -1,0 +1,43 @@
+
+.carousel-inner::before {content: ""; background: rgba(0,0,0,.5);z-index: 1;width: 100%;position: absolute;height: 100%;}
+
+img.d-block.w-100 {
+    height: 650px;
+    object-fit: cover;
+}
+
+.why-us .box:hover{
+    background: gold;
+}
+.why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
+    color: black;
+    font-weight: 900;
+}
+
+.col-lg-6.pt-4.pt-lg-0.order-2.order-lg-1.content.aos-init.aos-animate {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+.form-login {
+    /*! background: red; */
+    padding: 5% 10%;
+    border: 2px solid black;
+    box-shadow: 30px 20px 50px aqua;
+  }
+  .form-login input {
+    margin: 30px 0;
+  }
+  .form-login {
+    background: linear-gradient(white,aqua);
+  }
+  .form-login .fas.fa-user-tie,.form-login .fas.fa-user-plus {
+    color: black;
+    border: 2px solid black;
+    padding: 25px;
+    border-radius: 100px;
+    font-weight: 900;
+  }
