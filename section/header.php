@@ -9,17 +9,17 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.php">Inicio</a></li>
+          <li><a href="index.php">Inicio</a></li>
           <li class="drop-down"><a href="">Automoviles</a>
             <ul>
-              <li><a href="#">Nuevos</a></li>
-              <li><a href="#">Seminuevos</a></li>
+              <li><a href="nuevos.php">Nuevos</a></li>
+              <li><a href="seminuevos.php">Seminuevos</a></li>
             </ul>
           </li>
           <li><a href="#services">Servicios</a></li>
-          <li><a href="#portfolio">Contacto</a></li>
+          <li><a href="contacto.php">Contacto</a></li>
           <li><a href="#pricing">Distribuidora</a></li>
-          <li><a href="#team">Acerca De</a></li>
+          <li><a href="acerca_de.php">Acerca De</a></li>
           <?php
           if(isset($_SESSION["logeado"])){ 
           ?>

@@ -114,16 +114,25 @@
     /*estos metodos son los que se han agregado y no son de la practica */
     function agregar_usuario($nombre,$correo,$pass,$direccion,$telefono){
         $conn = connect();
-        $stmt = $conn->prepare("INSERT INTO usuario (nombre,correo,contrasena,telefono,direccion) VALUES (?,?,?,?,?)");
-        $stmt->bind_param("sssss",$nombre,$correo,$pass,$direccion,$telefono);
-        if($stmt->execute()){
-            return 200;
+
+        $stmt = $conn->prepare("SELECT * FROM usuario where correo = ?");
+        $stmt->bind_param("s",$correo);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $result = mysqli_fetch_all($result, MYSQLI_ASSOC);
+        //$result = json_encode($result, JSON_UNESCAPED_UNICODE);
+        //  echo count($result);
+        if(count($result) >= 1){
+            return 405;
         }else{
-            return 404;
+            $stmt = $conn->prepare("INSERT INTO usuario (nombre,correo,contrasena,telefono,direccion) VALUES (?,?,?,?,?)");
+            $stmt->bind_param("sssss",$nombre,$correo,$pass,$direccion,$telefono);
+            if($stmt->execute()){
+                return 200;
+            }else{
+                return 404;
+            }
         }
-        
-        
-    
     }
     function login($correo,$pass){
         $conn = connect();

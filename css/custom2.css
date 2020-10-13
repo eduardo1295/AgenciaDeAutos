@@ -1,0 +1,27 @@
+#header .logo a {
+    color: black;
+  }
+  
+  .nav-menu a {
+    color: black;
+  }
+
+  .nav-menu  li:hover > a {
+    color: white;
+  }
+
+  
+  #header.header-scrolled {
+    background: #cc1616;
+  }
+
+  section.acerca_de{
+    padding:  0;
+  }
+  section.acerca_de{
+    padding:  0;
+  }
+
+  section.acerca_de .img-slider{
+    object-fit: cover;
+  }

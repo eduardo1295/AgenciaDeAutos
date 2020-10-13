@@ -1,3 +1,3 @@
 <?php
-header("Location: /lavanderia_tec/");
+header("Location: /agencia/");
 ?>

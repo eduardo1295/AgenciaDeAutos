@@ -223,12 +223,14 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  padding: 18px 15px;
-  margin-left: 5px;
+  /*padding: 18px 15px;
+  margin-left: 5px;*/
   transition: 0.3s;
 }
 
 .nav-menu a {
+  padding: 18px 15px;
+  margin-left: 5px;
   display: block;
   position: relative;
   color: #fff;

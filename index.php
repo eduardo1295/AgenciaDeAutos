@@ -51,7 +51,7 @@
             <img src="img/autos-4.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3 class="text-center">Welcome</h3>
+            <h3 class="text-center">Bienvenido</h3>
             <p class="font-italic">
                 A lo largo de nuestra historia como agencia automotriz con un profundo arraigo en México,
                 hemos sido testigos de momentos desafiantes que han requerido de una gran unión social. 
@@ -111,7 +111,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact</h2>
+          <h2>Contacto</h2>
           <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
         </div>
 
@@ -119,7 +119,7 @@
           <div class="col-lg-6">
             <div class="info-box mb-4">
               <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
+              <h3>Dirección</h3>
               <p>A108 Adam Street, New York, NY 535022</p>
             </div>
           </div>
@@ -127,7 +127,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
+              <h3>Correo Electrónico</h3>
               <p>agenciagerrero@mailinator.com</p>
             </div>
           </div>
@@ -135,7 +135,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
+              <h3>Contáctanos</h3>
               <p>+1 5589 55488 55</p>
             </div>
           </div>
